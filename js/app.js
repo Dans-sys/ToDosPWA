@@ -56,7 +56,7 @@
         // });
 
         db.put(todo)
-            .then(console.log("Insertado"))
+            .then(console.log)
             .catch(console.log);
     }
 
